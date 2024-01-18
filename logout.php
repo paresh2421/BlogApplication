@@ -1,7 +1,8 @@
 <?php 
+    // $_SESSION = [];
     session_start();
     session_unset();
     session_destroy();
-    header('location: Homepage.php');
+    header('location: signinPage.php');
     exit;
 ?>  
